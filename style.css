@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@media only screen and (max-width: 768px) {
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .maincontainer {
+    background-color: #f1f5fa;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  header a {
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 0;
+  }
+
+  .logo {
+    padding-left: 24px;
+    margin-top: 24px;
+  }
+
+  .menu {
+    padding-right: 24px;
+    margin-top: 24px;
+    display: block;
+    padding-left: 140px;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    height: 718px;
+    width: 100%;
+    background-image: url("images/mbTemplate.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+  }
+
+  .infos h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #172b4d;
+    width: 327px;
+    height: 150px;
+    line-height: 52px;
+    padding-right: 26px;
+    padding-bottom: 12px;
+  }
+
+  .logo a {
+    display: flex;
+    color: #6070ff;
+    font-size: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 76px;
+    height: 20px;
+    left: 12px;
+    top: 24px;
+  }
+
+  .infos p {
+    color: #344563;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 327px;
+    height: 146px;
+    padding-top: 12px;
+    padding-right: 5px;
+  }
+
+  .infos a {
+    text-decoration: none;
+  }
+
+  .connect {
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    color: #7f8cff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170.17px;
+    margin-top: 12px;
+  }
+}
