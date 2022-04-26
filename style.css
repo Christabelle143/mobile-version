@@ -423,7 +423,8 @@ ul {
   z-index: 2;
   margin-top: -70px;
   padding: 100px 20px 0;
-  height: 730px;
+  height: 718px;
+  width: 100%;
 }
 
 .contact_content {
