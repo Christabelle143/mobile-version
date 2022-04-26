@@ -419,10 +419,10 @@ float: left;
   background-image: url(images/contact_background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /*z-index: 2;*/
+ /* z-index: 2;*/
   margin-top: -70px;
   padding: 100px 20px 0;
-  height: 730px;
+ /* height: 730px;*/
 }
 
 .contact_content {
@@ -462,7 +462,7 @@ float: left;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 130px;
-  /*height: 102px;*/
+  height: 102px;
   top: 3000px;
 }
 
@@ -595,3 +595,4 @@ float: left;
   background: #fff;
   transform: rotate(48.94deg);
 }
+
