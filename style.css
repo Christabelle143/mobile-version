@@ -199,7 +199,7 @@ ul {
 }
 
 .languages .lang1 {
-float: left;
+  float: left;
   width: 53px;
   height: 24px;
   display: flex;
@@ -223,7 +223,7 @@ float: left;
 }
 
 .languages .lang3 {
-  float: initial;
+  float: right;
   width: 95px;
   height: 24px;
   display: flex;
@@ -298,7 +298,7 @@ float: left;
 
 .about_description {
   position: static;
-  width: 350px;
+  width: 370px;
   height: 144px;
   left: 0;
   top: 113px;
@@ -416,13 +416,13 @@ float: left;
   font-weight: 500;
 }
 #contactcontainer {
-  background-image: url(images/contact_background.png);
+  background-image: url(images/Contactme.png);
   background-size: cover;
   background-repeat: no-repeat;
- /* z-index: 2;*/
+  z-index: 2;
   margin-top: -70px;
   padding: 100px 20px 0;
- /* height: 730px;*/
+  height: 730px;
 }
 
 .contact_content {
@@ -457,7 +457,7 @@ float: left;
   margin-top: 5px;
   width: 327px;
   font-style: normal;
-  /*position: static;*/
+  position: static;
   font-weight: 250;
   padding-left: 10px;
   padding-right: 10px;
@@ -595,4 +595,5 @@ float: left;
   background: #fff;
   transform: rotate(48.94deg);
 }
+
 
