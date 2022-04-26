@@ -416,10 +416,10 @@ float: left;
   font-weight: 500;
 }
 #contactcontainer {
-  background-image: url(images/Contactme.png);
+  background-image: url(images/contact_background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 2;
+  /*z-index: 2;*/
   margin-top: -70px;
   padding: 100px 20px 0;
   height: 730px;
@@ -457,12 +457,12 @@ float: left;
   margin-top: 5px;
   width: 327px;
   font-style: normal;
-  position: static;
+  /*position: static;*/
   font-weight: 250;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 130px;
-  height: 102px;
+  /*height: 102px;*/
   top: 3000px;
 }
 
