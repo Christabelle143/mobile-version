@@ -415,6 +415,7 @@ ul {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
+
 #contactcontainer {
   background-image: url(images/Contactme.png);
   background-size: cover;
@@ -595,5 +596,3 @@ ul {
   background: #fff;
   transform: rotate(48.94deg);
 }
-
-
