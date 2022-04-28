@@ -45,10 +45,9 @@
   }
 
   .menu {
-    padding-right: 5px;
     margin-top: 24px;
-    display: block;
-    padding-left: 140px;
+ display: block;
+ padding-right: 12px;
   }
 
   .infos {
@@ -137,7 +136,7 @@
     background-color: #fff;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
-    position: static;
+    /*position: static;*/
     margin: 50px auto;
     padding: 14px;
   }
@@ -149,13 +148,13 @@
     background-color: #fff;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
-    position: static;
+   /* position: static;*/
     margin: 50px auto;
     padding: 14px;
   }
 
   .project_photo {
-    position: static;
+   /* position: static;*/
     width: 295px;
     height: 220px;
     left: 16px;

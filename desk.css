@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   * {
     padding: 0%;
     margin: 0%;
@@ -34,6 +34,15 @@
   .logo {
     padding-left: 200px;
     margin-top: 12px;
+  }
+
+ header .logo{
+   color: #6070ff ;
+    transition: transform 2s, color 2s;
+  }
+header .logo:hover{
+    color: #172b4d;
+    transform: rotate(360deg);
   }
 
   header .logo {
@@ -74,9 +83,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20rem;
-    height: 718px;
-    width: 100%;
+    padding-left: 20%;
+    /*
+    width: 100%;*/
+    height: 110vh;
+    left: 0px;
+    top: 1px;
     background-image: url("images/desktop-images/deskBackground-Home.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,6 +104,7 @@
     padding-right: 26px;
     padding-bottom: 0;
     margin-top: 0;
+    padding-top: 12px;
   }
 
   .logo a {
@@ -304,6 +317,7 @@
     font-size: 15px;
     line-height: 24px;
     color: #344563;
+    width: 460px;
   }
 
   .languages2 {
@@ -454,7 +468,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
-    width: 100%;
+    height: 110vh;
     margin-top: 0;
     margin-bottom: 130px;
   }
@@ -487,17 +501,24 @@
     flex-direction: column;
     align-items: center;
     padding: 0;
-
-    /* position: static; */
+    /*
     width: 447px;
-    height: 395px;
+    height: 395px;*/
+    width: 85%;
+    /*
+    margin-top: -70px;
+    margin-left: 20px;
+    height: 351px;
     left: 177px;
     top: 182px;
     flex: none;
     order: 2;
-    flex-grow: 0;
+    flex-grow: 0;*/
     margin-top: 12px;
-    margin-left: 400px;
+    margin-left: -35px;
+    /*margin-left: 200px*/
+
+
   }
 
   .title {
@@ -682,8 +703,9 @@
     justify-content: center;
     align-items: center;
     width: 85%;
+    /*
     margin-top: -70px;
-    margin-left: 20px;
+    margin-left: 20px;*/
     height: 351px;
   }
 
