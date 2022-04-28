@@ -7,19 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Version Skeleton</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desk.css">
 </head>
 
 <body>
-      <header>
+    <main class="maincontainer">
+        <header>
+            <nav class="navbar">
             <a href="#" class="logo">Crysty</a>
-            <nav>
             <a href="#" class="menu"><img src="images/Union.png" alt="dropdown menu"> </a>
+            <ul class="nav_items">
+                <li class="portfolio item">
+                    <a href="#workcontainer" class="link">Portfolio</a>
+                </li>
+                <li class="about item">
+                    <a href="#aboutcontainer" class="link">About</a>
+                </li>
+                <li class="contact item">
+                    <a href="#contactcontainer" class="link">Contact</a>
+                </li>
+            </ul>
             </nav>
         </header>
-        <main class="maincontainer">
         <section class="infos">
 
-            <h1>I’m Christine Glad to see you!</h1>
+            <h1>I’m Christine <br>Glad to see you!</h1>
             <p>
                 I’m a software developer! I can help you build a product , feature or
                 website Look through some of my work and experience! If you like what
@@ -56,6 +68,7 @@
             <div class="container">
                 <div class="snapshootcard">
                     <img class="project_photo" src="images/pic.png" alt="project's image" />
+                    <img class="snapshoot" src="images/desktop-images/img1.png" alt="firstimage">
                 </div>
                 <div class="projects projects2">
                     <h4>Tonic</h4>
@@ -70,10 +83,11 @@
                         </li>
                         <li class="elements elements2">2015</li>
                     </ul>
+                    <div>
                     <p class="project_requirement">
-                        A daily selection of privately personalized reads; no accounts or
-                        sign-ups required.
+                        A daily selection of privately personalized reads; no accounts or sign-ups required.
                     </p>
+                </div>
                     <ul class="languages languages1">
                         <li class="lang1">html</li>
                         <li class="lang2">css</li>
@@ -82,14 +96,15 @@
                     <button class="btn" type="submit">See Project</button>
                 </div>
             </div>
-            <div class="container">
+            <div class="container1">
                 <div class="snapshoot1">
-                    <img class="project_photo" src="images/pic1.png" alt="Project's image" />
+                    <img class="snapshootimg" src="images/desktop-images/img2.png" alt="project image">
+                   <img class="project_photo" src="images/pic1.png" alt="Project's image" /> 
                 </div>
                 <div class="projects projects1">
                     <h4>Multi-Post Stories</h4>
                     <ul class="project_description">
-                        <li class="poppins">CANOPY</li>
+                        <li class="poppins">FACEBOOK</li>
                         <li>
                             <img class="bullet bullet1" src="images/bullet.png" alt="bullet" />
                         </li>
@@ -105,6 +120,7 @@
                     </p>
                     <ul class="languages languages2">
                         <li class="lang1">html</li>
+                        <li class="lang4">Ruby on rails</li>
                         <li class="lang2">css</li>
                         <li class="lang3">javaScript</li>
                     </ul>
@@ -114,12 +130,13 @@
             <div class="container">
                 <div class="snapshootcd">
                     <img class="project_photo" src="images/pic2.png" alt="project's image" />
+                    <img class="snapshoot" src="images/desktop-images/img3.png" alt="project image">
                 </div>
 
                 <div class="projects projects2">
-                    <h4>Tonic</h4>
+                    <h4>Facebook 360</h4>
                     <ul class="project_description">
-                        <li class="poppins">CANOPY</li>
+                        <li class="poppins">FACEBOOK</li>
                         <li>
                             <img class="bullet bullet1" src="images/bullet.png" alt="bullet" />
                         </li>
@@ -135,20 +152,22 @@
                     </p>
                     <ul class="languages languages2">
                         <li class="lang1">html</li>
+                        <li class="lang4">Ruby on rails</li>
                         <li class="lang2">css</li>
                         <li class="lang3">javaScript</li>
                     </ul>
                     <button class="btn" type="submit">See Project</button>
                 </div>
             </div>
-            <div class="container">
+            <div class="container1">
                 <div class="snapshoot1">
+                    <img class="snapshootimg" src="images/desktop-images/img4.png" alt="project image">
                     <img class="project_photo" src="images/pic3.png" alt="project's image" />
                 </div>
                 <div class="projects projects1">
-                    <h4>Multi-Post Stories</h4>
+                    <h4>Uber Navigation</h4>
                     <ul class="project_description">
-                        <li class="poppins">CANOPY</li>
+                        <li class="poppins">Uber</li>
                         <li>
                             <img class="bullet bullet1" src="images/bullet.png" alt="bullet" />
                         </li>
@@ -164,6 +183,7 @@
                     </p>
                     <ul class="languages languages2">
                         <li class="lang1">html</li>
+                        <li class="lang4">Ruby on rails</li>
                         <li class="lang2">css</li>
                         <li class="lang3">javaScript</li>
                     </ul>
@@ -251,11 +271,14 @@
             </div>
         </section>
         <section id="contactcontainer">
+<<<<<<< HEAD
             <div class="rectangular1"></div>
             <div class="rectangular2"></div>
             <div class="circle2"></div>
             <div class="circle1"></div>
             <div class="ellipse2"></div>
+=======
+>>>>>>> 99e7f37254e7aabe2da939e435f0e84aebc0c616
             <div class="contact_content">
                 <h1 class="contact_title">Contact me</h1>
                 <p class="contact_description">
@@ -268,13 +291,13 @@
                 <form id="input" action="https://formspree.io/f/xayvlqqy" method="post">
                     <label class="label" for="username"></label>
                     <input id="username" class="inputs" name="username" type="text" maxlength="30"
-                        placeholder="Full name" required="required" />
+                        placeholder="Full name" required />
                     <label class="label" for="email"></label>
                     <input id="email" class="inputs" name="email" type="email" value="" placeholder="Email address"
-                        required="required" />
+                        required />
                     <label class="label" id="input-message" for="messag"></label>
                     <textarea class="input_msg" name="message" id="messag" maxlength="500" cols="20" rows="10"
-                        placeholder="Write your message here" required="required"></textarea>
+                        placeholder="Write your message here" required ></textarea>
                     <button class="btn2" type="submit">Get In Touch</button>
                 </form>
             </div>
