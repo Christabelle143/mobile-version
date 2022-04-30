@@ -45,6 +45,7 @@
   }
 
   .menu {
+    padding-right: 5px;
     margin-top: 24px;
   }
 
@@ -58,7 +59,6 @@
     background-image: url("images/mbTemplate.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right;
   }
 
   .infos h1 {
@@ -78,6 +78,12 @@
     line-height: 20px;
     width: 76px;
     height: 20px;
+  }
+
+  .project_photo {
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
   }
 
   .infos p {
@@ -143,8 +149,6 @@
     padding: 14px;
   }
 
-  .project_photo {
-  }
 
   .projects {
     width: 100%;
