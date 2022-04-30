@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 @media only screen and (max-width: 768px) {
   * {
     padding: 0;
@@ -9,7 +10,6 @@
 
   .maincontainer {
     background-color: #f1f5fa;
-  
   }
 
   header {
@@ -59,7 +59,7 @@
     background-image: url("images/mbTemplate.png");
     background-repeat: no-repeat;
     background-size: cover;
-   background-position: top right;
+    background-position: top right;
   }
 
   .infos h1 {
@@ -147,7 +147,7 @@
   .project_photo {
     width: 100%;
     height: 100%;
-    margin-top: 12px; 
+    margin-top: 12px;
   }
 
   .projects {
@@ -239,7 +239,6 @@
     color: #6070ff;
     background: #ebebff;
   }
-  
 
   .btn {
     width: 124px;
@@ -251,7 +250,6 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-   /* letter-spacing: 0.03em;*/
     border: 2px solid #6070ff;
     color: #6070ff;
     background-color: #fff;
@@ -280,8 +278,8 @@
     background-image: url("images/aboutbackgroundmobile.png");
     background-repeat: no-repeat;
     background-size: cover;
-  background-position: top right;
-  margin-top: 12px;
+    background-position: top right;
+    margin-top: 12px;
   }
 
   .about_content {
@@ -367,7 +365,7 @@
     color: #fff;
   }
 
- .menu1 {
+  .menu1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -424,7 +422,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-    margin: 24 24px;
+    margin: 0 24px;
     padding-left: 28px;
     padding-right: 28px;
   }
@@ -447,7 +445,8 @@
     color: #ebebff;
     font-weight: 250;
   }
- #input {
+
+  #input {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -511,20 +510,6 @@
     border: none;
   }
 
-  /*.footerline {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 40%;
-    height: 5px;
-    bottom: 8px;
-    background: #0d151e;
-    border-radius: 10px;
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-right:100px;
-  }*/
-
   .snapshoot {
     display: none;
   }
@@ -533,7 +518,7 @@
     display: none;
   }
 
- .snapshoot2 {
+  .snapshoot2 {
     display: none;
   }
 
@@ -544,7 +529,8 @@
   .nav_items .item .link {
     display: none;
   }
-  .nav_items{
+
+  .nav_items {
     display: none;
   }
 
