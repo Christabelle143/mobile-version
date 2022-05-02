@@ -2,8 +2,8 @@
 
 @media only screen and (max-width: 768px) {
   * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
@@ -21,14 +21,14 @@
 
   .navbar {
     width: 100%;
-    min-height: 10%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
     position: fixed;
-    top: 0;
     z-index: 10000;
+    padding-top: 24px;
   }
 
   header a {
@@ -45,22 +45,20 @@
   }
 
   .menu {
+    padding-right: 24px;
     margin-top: 24px;
-    display: block;
-    padding-right: 12px;
   }
 
   .infos {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 50px;
     padding-left: 30px;
-    height: 718px;
-    width: 100%;
+    height: 100vh;
     background-image: url("images/mbTemplate.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right;
   }
 
   .infos h1 {
@@ -80,8 +78,12 @@
     line-height: 20px;
     width: 76px;
     height: 20px;
-    left: 12px;
-    top: 24px;
+  }
+
+  .project_photo {
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
   }
 
   .infos p {
@@ -104,7 +106,6 @@
     color: #7f8cff;
     margin-top: 30px;
     margin-bottom: 20px;
-    font-style: normal;
     font-weight: 100;
   }
 
@@ -123,10 +124,7 @@
 
   #workcontainer {
     display: grid;
-    min-height: 100vh;
-    padding-top: 12px;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0 24px;
   }
 
   .container {
@@ -136,8 +134,6 @@
     background-color: #fff;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
-
-    /* position: static; */
     margin: 50px auto;
     padding: 14px;
   }
@@ -149,25 +145,14 @@
     background-color: #fff;
     border-radius: 16px;
     border: 1px solid #dfe1e6;
-
-    /* position: static; */
     margin: 50px auto;
     padding: 14px;
   }
 
-  .project_photo {
-    /* position: static; */
-    width: 295px;
-    height: 220px;
-    left: 16px;
-    top: 16px;
-    margin: 12px 0;
-  }
-
   .projects {
-    width: 295px;
-    height: auto;
-    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
   }
 
   .projects h4 {
@@ -196,10 +181,8 @@
   }
 
   .bullet {
-    width: 8px;
+    width: 100%;
     height: 8px;
-    left: 67px;
-    top: 12px;
   }
 
   .project_requirement {
@@ -266,7 +249,6 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    letter-spacing: 0.03em;
     border: 2px solid #6070ff;
     color: #6070ff;
     background-color: #fff;
@@ -291,20 +273,18 @@
   }
 
   #aboutcontainer {
-    display: grid;
-    padding: 150px 30px 150px 30px;
+    display: flex;
     background-image: url("images/aboutbackgroundmobile.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top right;
+    margin-top: 12px;
   }
 
   .about_content {
     display: flex;
     flex-direction: column;
-
-    /* width: 327px;
-  height: auto; */
+    margin: 60px 24px;
   }
 
   .title {
@@ -320,15 +300,14 @@
   }
 
   .about_description {
-    position: static;
-    left: 0;
-    top: 113px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    margin: 12px 0;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
   }
 
   #aboutcontainer a {
@@ -360,11 +339,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
     border: 2px solid #6070ff;
     color: #6070ff;
     background-color: #fff;
@@ -393,16 +369,17 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-top: 20px;
-    padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 24px;
+    margin-right: 24px;
   }
 
   .programming_languages {
     display: flex;
     flex-direction: column;
+    margin-right: 24px;
   }
 
   #frameworks {
@@ -418,7 +395,6 @@
   }
 
   .items {
-    float: left;
     display: flex;
     align-items: center;
     padding: 12px;
@@ -432,13 +408,11 @@
   }
 
   #contactcontainer {
+    display: grid;
     background-image: url(images/contact_background.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    z-index: 2;
-    margin-top: -70px;
-    padding: 100px 20px 0;
-    height: 730px;
+    background-size: cover;
+    height: 100vh;
   }
 
   .contact_content {
@@ -446,10 +420,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85%;
-    margin-top: -70px;
-    margin-left: 20px;
-    height: 351px;
+    padding-top: 100px;
+    margin: 0 24px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .contact_title {
@@ -461,8 +435,6 @@
     font-size: 40px;
     line-height: 52px;
     color: #fff;
-    top: 4734px;
-    padding-right: 20px;
   }
 
   .contact_description {
@@ -470,28 +442,15 @@
     line-height: 28px;
     text-align: center;
     color: #ebebff;
-    margin-top: 5px;
-    width: 327px;
-    font-style: normal;
-    position: static;
     font-weight: 250;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 130px;
-    height: 102px;
-    top: 3000px;
   }
 
   #input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 20px;
-    height: 396px;
-    margin-top: -105px;
     padding-left: 28px;
     padding-right: 28px;
-    padding-top: 50px;
   }
 
   .label {
@@ -500,7 +459,6 @@
   }
 
   .inputs {
-    height: 48px;
     padding: 10px;
     font-size: 17px;
     line-height: 20px;
@@ -551,19 +509,6 @@
     border: none;
   }
 
-  .footerline {
-    position: static;
-    display: flex;
-    align-self: center;
-    width: 134px;
-    height: 5px;
-    bottom: 8px;
-    background: #0d151e;
-    border-radius: 10px;
-    margin-top: 40px;
-    margin-left: 100px;
-  }
-
   .snapshoot {
     display: none;
   }
@@ -581,6 +526,10 @@
   }
 
   .nav_items .item .link {
+    display: none;
+  }
+
+  .nav_items {
     display: none;
   }
 
