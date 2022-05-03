@@ -8,6 +8,9 @@ Set up Personal Porfolio Project.
 - HTML
 - CSS
 
+## LIVE DEMO
+[live demo link](https://christabelle143.github.io/mobile-version/).
+
 ## Getting Started
 
  Inorder to be able to set this up locally and eventually run it, follow the steps;
