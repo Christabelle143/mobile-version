@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christabelle's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
      <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="desk.css"> 
 </head>
@@ -15,8 +16,11 @@
         <header>
             <nav class="navbar">
                 <a href="#" class="logo">Crysty</a>
-                <a href="#" class="menu"><img src="images/Union.png" alt="dropdown menu"> </a>
-                <ul class="nav_items">
+                <div class="menu3">
+                <a href="#" class="menu " id="openmenu"><img src="images/Union.png" alt="dropdown menu one"> </a>
+                <a href="#" class="menu remove" id="closemenu"><i class="bi bi-x-lg"></i></a>
+                </div>
+                <ul class="nav_items hide">
                     <li class="portfolio item">
                         <a href="#workcontainer" class="link">Portfolio</a>
                     </li>
@@ -300,6 +304,7 @@
             </div>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 
 </html>
