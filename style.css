@@ -547,6 +547,7 @@
     height: 100%;
     background-color: #6070FF;
     opacity: .8;
+    backdrop-filter: blur(10px);
   }
   .hide {
     visibility: hidden;
