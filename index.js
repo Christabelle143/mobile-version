@@ -15,6 +15,11 @@ menu.addEventListener("click", function(e){
   })
   for (let i = 0; i<lis.length; i++){
     lis[i].addEventListener("click", function(e){
-      links.classList.add("remove");
+      links.classList.add("hide");
+      hamburger.classList.toggle('remove');
+      document.body.classList.toggle("no-scroll");
+      logo.classList.toggle("hide");  
+    closeHamburger.classList.add('remove')
+
     })
   }
