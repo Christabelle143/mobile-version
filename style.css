@@ -172,13 +172,6 @@
     align-items: center;
     justify-content: center;
   }
-
-  .btn a{
-    text-decoration: none;
-    list-style: none;
-    color: #6070ff;
-  }
-  
   .mobile_window{
     display: grid;
     margin: 0;
