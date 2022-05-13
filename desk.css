@@ -201,7 +201,6 @@
   
   .source {
     width: 154px;
-    height: 48px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -215,7 +214,7 @@
     box-sizing: border-box;
     border-radius: 8px;
     margin-top: 24px;
-    padding: 0 0 0 12px !important;
+    padding: 8px;
   }
 
   .closepopup{
@@ -305,6 +304,7 @@
    
   }
   .position1{
+    margin: 20px 0;
     display: grid;
     grid-template-columns: auto auto auto;
   }
