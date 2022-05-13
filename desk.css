@@ -377,6 +377,10 @@
     color: #344563;
   }
 
+  .infos p {
+    font-size: 10px;
+  }
+
   .languages2 {
     display: flex;
     flex-direction: row;

@@ -182,7 +182,7 @@ subject.insertAdjacentHTML('afterend',
         </div>
 		<div>
         <ul class="languages languages2 position1">
-         ${prop[idx].technologies.map(item => `<li class="lang1 lang2 lang3">${item}</li>`)}
+         ${prop[idx].technologies.map(item => `<li class="lang1 lang2 lang3">${item}</li>`).join('')}
         </ul>
 		<hr>
         <div class="navigation-links">
