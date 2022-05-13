@@ -176,7 +176,7 @@ subject.insertAdjacentHTML('afterend',
         </div>
        <div class="position">
         <div class="popup_description">
-          <p class="project_requirement">
+          <p class="project_requirement" id="ptag">
            ${prop[idx].description}
           </p>
         </div>
@@ -195,20 +195,5 @@ subject.insertAdjacentHTML('afterend',
   </div>
   </div>`);
 }
-//form validation
-const email = document.getElementById('email');
-const form = document.getElementById('input');
-const displayMsg = document.getElementById('form-message-error');
-form.addEventListener('submit', (event) => {
-  if (email.value !== email.value.toLowerCase()) {
-    event.preventDefault();
-   displayMsg.style.visibility = 'visible';
-   displayMsg.classList.add('error-message');
-	displayMsg.textContent = 'Your email address should be in lowercase';
-   
-  } else {
-    displayMsg.style.visibility = 'hidden';
-  }
-});
 
 
