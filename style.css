@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 @media only screen and (max-width: 768px) {
   * {
@@ -35,8 +35,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding-top: 50px;
-    padding-left: 30px; */
     height: 100vh;
     background-image: url("images/mbTemplate.png");
     background-repeat: no-repeat;
@@ -80,7 +78,6 @@
     color: #344563;
     font-weight: 400;
     font-size: 16px;
-    padding-top: 50px;
     padding-left: 30px;
     line-height: 24px;
     padding-top: 12px;
@@ -133,8 +130,8 @@
     margin: 50px auto;
     padding: 14px;
   }
-  /*begining of window pop up*/
-  .container2{
+
+  .container2 {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
@@ -152,15 +149,16 @@
     align-items: center;
   }
 
-  .closepopup{
+  .closepopup {
     display: flex;
     align-self: flex-end;
-    color: #67798E;
+    color: #67798e;
     font-size: 26px;
     font-weight: lighter;
     left: 80%;
   }
-  .navigation-links{
+
+  .navigation-links {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -172,7 +170,8 @@
     align-items: center;
     justify-content: center;
   }
-  .mobile_window{
+
+  .mobile_window {
     display: grid;
     margin: 0;
     height: 100vh;
@@ -182,7 +181,8 @@
     background-color: rgba(180, 180, 180, 0.5);
     z-index: 1000;
   }
-  .desktop_window{
+
+  .desktop_window {
     display: none;
   }
 
@@ -256,9 +256,7 @@
     margin-top: 24px;
     padding: 0 0 0 12px !important;
   }
-  .hr{
-    color: #EBECF0;
-  }
+
   .project_requirement {
     margin: 12px 0;
     font-style: normal;
@@ -631,12 +629,7 @@
   }
 
   hr {
-    width: 45%;
-    height: 3px;
-    border: none;
-    background-color: #000;
-    margin: auto;
-    margin-bottom: 9px;
+    display: none;
   }
 
   #horizontal {
@@ -661,7 +654,7 @@
 
   .poppins {
     color: #344563;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
   }
 
