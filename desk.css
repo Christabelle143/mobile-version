@@ -138,7 +138,8 @@
     gap: 46px;
     margin: 60px 142px;
   }
-  /*window popup*/
+
+  /* window popup */
   .mobile_window {
     margin: 0;
     display: flex;
@@ -150,21 +151,19 @@
     background-color: rgba(180, 180, 180, 0.5);
     z-index: 1000;
   }
-  
 
-  .navigation-links{
+  .navigation-links {
     display: flex;
     flex-direction: row;
     width: 100%;
     gap: 20px;
-      
   }
 
   .navigation-links button {
     margin-top: 0;
   }
 
-  .container2{
+  .container2 {
     display: flex;
     background-color: #fff;
     justify-content: center;
@@ -175,10 +174,9 @@
     gap: 46px;
     max-width: 60vw;
     max-height: 90vh;
-  
-
   }
-   .popup_head {
+
+  .popup_head {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -198,7 +196,7 @@
     height: 100%;
     width: 100%;
   }
-  
+
   .source {
     width: 154px;
     display: flex;
@@ -217,25 +215,23 @@
     padding: 8px;
   }
 
-  .closepopup{
+  .closepopup {
     display: flex;
     align-self: flex-end;
-    color: #67798E;
+    color: #67798e;
     font-size: 26px;
     font-weight: lighter;
-
   }
-
 
   .flex {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    gap:2px;
+    gap: 2px;
   }
 
-/*  .winUp {
+  /*  .winUp {
     position: fixed;
     top: 0;
     left: 0;
@@ -253,7 +249,7 @@
     display: none;
     z-index: 2000;
   }
-  
+
   .windowPopup {
     width: 80%;
     height: 620px;
@@ -266,8 +262,9 @@
     font-family: "Poppins", sans-serif;
     border-radius: 22px;
     transition: right 0.3s ease;
-  }*/
-/*end of window pop up*/
+  } */
+
+  /* end of window pop up */
   .container1 {
     display: flex;
     flex-direction: row;
@@ -296,14 +293,15 @@
   }
 
   .popup_project_photo {
-   width: 100%;
+    width: 100%;
   }
-  .position{
+
+  .position {
     display: flex;
-    justify-content: space-between; 
-   
+    justify-content: space-between;
   }
-  .position1{
+
+  .position1 {
     margin: 20px 0;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -380,6 +378,10 @@
   #ptag {
     font-size: 12px;
     width: 85%;
+  }
+
+  #form-message-error {
+    color: red;
   }
 
   .languages2 {
