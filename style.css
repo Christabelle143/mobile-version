@@ -130,6 +130,7 @@
     margin: 50px auto;
     padding: 14px;
   }
+
   .container2 {
     display: grid;
     grid-template-columns: auto;
@@ -633,7 +634,8 @@
 
   #form-message-error {
     color: red;
-    
+  }
+
   hr {
     display: none;
   }
