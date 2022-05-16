@@ -628,6 +628,14 @@
     visibility: hidden;
   }
 
+  .hr {
+    display: none;
+  }
+
+  #form-message-error {
+    color: red;
+  }
+
   hr {
     display: none;
   }

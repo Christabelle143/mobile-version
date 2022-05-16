@@ -380,6 +380,10 @@
     width: 85%;
   }
 
+  #form-message-error {
+    color: red;
+  }
+
   hr {
     color: #ebecf0;
   }
