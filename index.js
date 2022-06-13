@@ -225,7 +225,7 @@ function handleClick(e) {
 btn.forEach((item) => {
   item.addEventListener('click', handleClick);
 });
-//form validation
+// form validation
 const email = document.getElementById('email');
 const form = document.getElementById('input');
 const displayMsg = document.getElementById('form-message-error');
