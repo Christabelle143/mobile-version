@@ -9,7 +9,7 @@ Set up Personal Porfolio Project.
 - CSS
 
 ## LIVE DEMO
-[live demo link](https://christabelle143.github.io/mobile-version/).
+[live demo link][https://christabelle143.github.io/mobile-version/].
 
 ## Getting Started
 
