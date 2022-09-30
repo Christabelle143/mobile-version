@@ -11,7 +11,7 @@
 
 
 ## Screenshot 📸
-  ![screenshot](#)
+  ![screenshot](images/portfolio.PNG)
 
 ## Live Demo 🔗
 
