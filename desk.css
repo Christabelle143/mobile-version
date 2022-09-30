@@ -139,7 +139,6 @@
     margin: 60px 142px;
   }
 
-  /* window popup */
   .mobile_window {
     margin: 0;
     display: flex;
@@ -231,40 +230,6 @@
     gap: 2px;
   }
 
-  /*  .winUp {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100vh;
-    padding: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(91 123 170 / 67.8%);
-    font-family: "Poppins", sans-serif;
-    backdrop-filter: blur(10px);
-    transition: right 0.3s ease;
-    display: none;
-    z-index: 2000;
-  }
-
-  .windowPopup {
-    width: 80%;
-    height: 620px;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255 255 255);
-    font-family: "Poppins", sans-serif;
-    border-radius: 22px;
-    transition: right 0.3s ease;
-  } */
-
-  /* end of window pop up */
   .container1 {
     display: flex;
     flex-direction: row;
